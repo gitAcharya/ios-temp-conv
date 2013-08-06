@@ -153,24 +153,5 @@
     [self.convertButton setBackgroundColor:[UIColor greenColor]];
 }
 
-#if 0
-
-// Setting a round-rect button's color programmatically was a pain. Had to use custom button and was piece
-// of cake. Commenting this method out for future use.
-// I have borrowed/copied this from stackoverflow. I do not like this solution - looks overly complicated
-- (UIImage *)imageWithColor:(UIColor *)color {
-    CGRect rect = CGRectMake(0.0f, 0.0f, 1.0f, 1.0f);
-    UIGraphicsBeginImageContext(rect.size);
-    CGContextRef context = UIGraphicsGetCurrentContext();
-    
-    CGContextSetFillColorWithColor(context, [color CGColor]);
-    CGContextFillRect(context, rect);
-    
-    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
-    UIGraphicsEndImageContext();
-    
-    return image;
-}
-#endif
 
 @end
