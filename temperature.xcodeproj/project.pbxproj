@@ -21,6 +21,8 @@
 		7A05474417B092DB008CBDFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A05472517B092DB008CBDFF /* Foundation.framework */; };
 		7A05474C17B092DB008CBDFF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7A05474A17B092DB008CBDFF /* InfoPlist.strings */; };
 		7A05474F17B092DB008CBDFF /* temperatureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A05474E17B092DB008CBDFF /* temperatureTests.m */; };
+		7A05475B17B09417008CBDFF /* TempViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A05475917B09417008CBDFF /* TempViewController.m */; };
+		7A05475C17B09417008CBDFF /* TempViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A05475A17B09417008CBDFF /* TempViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		7A05474B17B092DB008CBDFF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7A05474D17B092DB008CBDFF /* temperatureTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = temperatureTests.h; sourceTree = "<group>"; };
 		7A05474E17B092DB008CBDFF /* temperatureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = temperatureTests.m; sourceTree = "<group>"; };
+		7A05475817B09417008CBDFF /* TempViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TempViewController.h; sourceTree = "<group>"; };
+		7A05475917B09417008CBDFF /* TempViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TempViewController.m; sourceTree = "<group>"; };
+		7A05475A17B09417008CBDFF /* TempViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TempViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +118,9 @@
 			isa = PBXGroup;
 			children = (
 				7A05473217B092DB008CBDFF /* AppDelegate.h */,
+				7A05475817B09417008CBDFF /* TempViewController.h */,
+				7A05475917B09417008CBDFF /* TempViewController.m */,
+				7A05475A17B09417008CBDFF /* TempViewController.xib */,
 				7A05473317B092DB008CBDFF /* AppDelegate.m */,
 				7A05472A17B092DB008CBDFF /* Supporting Files */,
 			);
@@ -227,6 +235,7 @@
 				7A05473617B092DB008CBDFF /* Default.png in Resources */,
 				7A05473817B092DB008CBDFF /* Default@2x.png in Resources */,
 				7A05473A17B092DB008CBDFF /* Default-568h@2x.png in Resources */,
+				7A05475C17B09417008CBDFF /* TempViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +272,7 @@
 			files = (
 				7A05473017B092DB008CBDFF /* main.m in Sources */,
 				7A05473417B092DB008CBDFF /* AppDelegate.m in Sources */,
+				7A05475B17B09417008CBDFF /* TempViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
